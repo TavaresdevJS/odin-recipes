@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 600px;
+}
+
+ol li, ul li, .recipe {
+    text-align: justify;
+}
