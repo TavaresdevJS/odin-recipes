@@ -1,8 +1,13 @@
-* {
-    margin: 0;
-    padding: 0;
+*,
+*::before,
+*::after {
     box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(80, 170, 170);
     text-align: center;
+    font-family: Verdana, "Times New Roman", sans-serif;
 }
 
 img {
@@ -10,6 +15,9 @@ img {
     width: 600px;
 }
 
-ol li, ul li, .recipe {
+.recipe {
     text-align: justify;
+    background-color:rgb(161, 219, 219);
+    padding: 5em;
+    width: 800px;
 }
